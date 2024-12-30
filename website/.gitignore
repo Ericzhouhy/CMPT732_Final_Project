@@ -1,0 +1,13 @@
+# website/backend/fastapienv/
+# website/backend/__pycache__/
+# website/backend/.idea/
+# website/backend/rating_model.joblib
+# website/backend/category_predict_model
+
+# website/my-app/node_modules/
+# website/my-app/*.d.ts
+# website/*.d.ts
+# website/.vscode
+# website/.DS_Store
+# website/.idea/
+# website/__pycache__/

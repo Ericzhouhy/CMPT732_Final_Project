@@ -1,0 +1,11 @@
+spark-submit --conf spark.executor.memory=8g polarity_top_bigrams.py
+
+To refine your method and focus on meaningful bigrams rather than common phrases like "it is" or "it was," you can enhance your analysis by applying some additional preprocessing and filtering techniques. Here are a few strategies you can implement:
+
+Remove Stopwords: Remove common stopwords before generating bigrams. This step helps eliminate commonly used words that don't carry significant sentiment weight.
+
+Set a Minimum Frequency Threshold: Only consider bigrams that appear more than a certain number of times across the dataset. This approach can help focus on more significant bigrams that are not just noise.
+
+Use TF-IDF or Similar Scoring: Compute a score that considers the frequency of the bigram in each class relative to its frequency in the entire dataset. TF-IDF (Term Frequency-Inverse Document Frequency) is a common approach for highlighting important terms.
+
+Consider Sentiment Scoring: Use a predefined sentiment lexicon to weigh the contribution of words or phrases based on their sentiment orientation.

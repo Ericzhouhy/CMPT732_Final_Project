@@ -1,0 +1,6 @@
+At the beginning, we calculate the top 10 frequently appears words in respectively the positive reviews and negative reviews. Then we observed all the two output are including almost same results such as 'the', 'I', 'Me', as they frequently occurs in both postive and negative reviews.
+
+Then we notice this typo, so we calculate the difference between the words occur frequency in pos and neg reviews, and output the top 10 with largest differences
+However, as the number of pos review and neg review is not same, the output is still those words with high frequency in both reviews.
+
+So we calculate the word appearing frequency in positive and negative reviews

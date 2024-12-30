@@ -1,0 +1,4 @@
+my-app/.eslintrc.json
+my-app/.vscode/
+backend/rating_model.joblib filter=lfs diff=lfs merge=lfs -text
+backend/category_predict_model filter=lfs diff=lfs merge=lfs -text

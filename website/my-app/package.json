@@ -1,0 +1,38 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run frontend\" \"npm run backend\"",
+    "frontend": "next dev",
+    "backend": "cd ../backend && source fastapienv/bin/activate && uvicorn mle:app --reload",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@tabler/icons-react": "^3.22.0",
+    "@tsparticles/engine": "^3.6.0",
+    "@tsparticles/react": "^3.0.0",
+    "@tsparticles/slim": "^3.6.0",
+    "clsx": "^2.1.1",
+    "concurrently": "^7.6.0",
+    "framer-motion": "^11.11.17",
+    "mini-svg-data-uri": "^1.4.4",
+    "next": "15.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.3.5",
+    "tailwind-merge": "^2.5.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.1",
+    "@types/react": "^18.3.12",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8",
+    "eslint-config-next": "15.0.3",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15",
+    "typescript": "^5.6.3"
+  }
+}
